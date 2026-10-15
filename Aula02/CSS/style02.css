@@ -1,0 +1,15 @@
+/* Utilizando o background-attachment */
+
+body{
+    font-family: monospace;
+    background-image: url("../IMG/mushoku.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Utilizando a Propriedade abreviada para  */
+
+.text1 {
+    background: url("../IMG/asta.jpg") no-repeat black;
+    color: red;
+}

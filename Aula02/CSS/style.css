@@ -1,0 +1,44 @@
+body {
+    background-color: whitesmoke;
+}
+
+.texto {
+    background-image: url("../IMG/asta.jpg");
+    color: gold;
+}
+.texto2 {
+    background-image: url("../IMG/asta.jpg");
+    height: 100px;
+    background-repeat: repeat-x;
+    align-content: center;
+    color: gold;
+}
+
+.texto3 {
+    background-image: url("../IMG/asta.jpg");
+    height: 100px;
+    background-repeat: repeat-y;
+    align-content: center;
+    color: gold;
+}
+
+.texto4 {
+    background-image: url("../IMG/asta.jpg");
+    height: 100px;
+    background-repeat: no-repeat;
+    align-content: center;
+    color: gold;
+}
+
+.texto5 {
+    background-image: url("../IMG/asta.jpg");
+    height: 100px;
+    background-repeat: no-repeat;
+    align-content: center;
+    color: gold;
+    background-position: right top;
+}
+
+.texto2, .texto3, .texto4, .texto5{
+    border: 2px solid red;
+}
