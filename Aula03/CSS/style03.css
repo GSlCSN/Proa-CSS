@@ -1,0 +1,27 @@
+body{
+    background-color: midnightblue;
+    font-family: monospace;
+}
+
+/* Exemplo simples de wifth e height */
+
+div.ex1{
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 200px;
+}
+
+/* Exemplo de max-width */
+
+div.ex2-1 {
+    background-color: blueviolet;
+    color: aliceblue;
+    width: 500px;
+}
+
+div.ex2-2 {
+    background-color: red;
+    color: black;
+    max-width: 500px;
+}
