@@ -1,0 +1,88 @@
+body{
+    background-color: aliceblue;
+    font-family: monospace;
+}
+
+h3{
+    color: blueviolet;
+}
+.center div,
+.flex-start div,
+.flex-end div,
+.space-around div,
+.space-between div,
+.space-evenly div{
+    border: 2px solid black;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+}
+
+/* Utilizando a propriedade justfy-content */
+
+.center{
+    background-color: gray;
+    border: 4px solid whitesmoke;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Utilizando a propriedade justfy-content: flex-start*/
+
+.flex-start{
+    background-color: gray;
+    border: 4px solid whitesmoke;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: start;
+}
+
+/* Utilizando a propriedade justfy-content: flex-end*/
+
+.flex-end{
+    background-color: gray;
+    border: 4px solid whitesmoke;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+}
+
+/* Utilizando a propriedade justfy-content: space-around*/
+
+.space-around{
+    background-color: gray;
+    border: 4px solid whitesmoke;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+/* Utilizando a propriedade justfy-content: space-between*/
+
+.space-between{
+    background-color: gray;
+    border: 4px solid whitesmoke;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+/* Utilizando a propriedade justfy-content: space-evenly*/
+
+.space-evenly{
+    background-color: gray;
+    border: 4px solid whitesmoke;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}

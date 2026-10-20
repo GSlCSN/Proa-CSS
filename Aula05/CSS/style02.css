@@ -1,0 +1,126 @@
+body{
+    background-color: aliceblue;
+    font-family: monospace;
+}
+
+.center1 div,
+.flex-start1 div,
+.flex-end1 div,
+.stretch1 div,
+.center2 div,
+.space-between2 div {
+    border: 2px solid black;
+    background-color: aqua;
+    width: 100px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+}
+
+/* Altura fixa só nos que precisam */
+.center1 div,
+.flex-start1 div,
+.flex-end1 div,
+.center2 div,
+.space-between2 div {
+    height: 100px;
+}
+
+.stretch1 div {
+    height: auto;
+}
+
+/* Utilizando a propriedade align-itens: center */
+
+.center1{
+    background-color: gray;
+    border: 4px solid whitesmoke;
+    padding: 10px;
+    height: 300px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Utilizando a propriedade align-itens: flex-start */
+
+.flex-start1{
+    background-color: gray;
+    border: 4px solid whitesmoke;
+    padding: 10px;
+    height: 300px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+/* Utilizando a propriedade align-itens: flex-end */
+
+.flex-end1{
+    background-color: gray;
+    border: 4px solid whitesmoke;
+    padding: 10px;
+    height: 300px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+}
+
+/* Utilizando a propriedade align-itens: stretch */
+
+.stretch1{
+    background-color: gray;
+    border: 4px solid whitesmoke;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    height: 300px;
+    align-items: stretch;
+}
+
+/* Utilizando a propriedade align-content: center*/
+
+.center2{
+    background-color: gray;
+    border: 4px solid whitesmoke;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: 500px;
+    align-content: center;
+}
+
+/* Utilizando a propriedade align-content: center*/
+
+.space-between2{
+    background-color: gray;
+    border: 4px solid whitesmoke;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: 500px;
+    align-content: space-between;
+}
+
+/* Exemplo de centralização absoluta com flexbox */
+
+.container div {
+    border: 2px solid black;
+    background-color: aqua;
+    width: 250px;
+    height: 160px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+}
+
+.container{
+    background-color: gray;
+    border: 4px solid whitesmoke;
+    padding: 10px;
+    height: 300px;
+    justify-items: center;
+    align-content: center;
+}

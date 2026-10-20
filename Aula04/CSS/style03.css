@@ -80,6 +80,8 @@ div.ex1 div {
     align-content: center;
 }
 
+/* Utilizando o flex-wrap */
+
 .ex3-wrap {
     background-color: red;
     border: 2px solid black;
@@ -87,6 +89,7 @@ div.ex1 div {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    /* Flex-wrap: nowrap <-- Valor padrão */
 }
 
 .ex3-wrap div {
