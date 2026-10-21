@@ -1,0 +1,22 @@
+body{
+    background-color: aliceblue;
+    font-family: monospace;
+    color: lightgray;
+}
+
+.container {
+    background-color: gray;
+    border: 8px solid black;
+    color: black;
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+}
+
+.container div{
+    background-color: aliceblue;
+    border: 4px solid black;
+    text-align: center;
+    align-content: center;
+}
