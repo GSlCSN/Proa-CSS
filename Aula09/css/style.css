@@ -1,0 +1,29 @@
+/* Importando font do google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Datatype&display=swap');
+
+body{
+    background-color: aliceblue;
+    font-family: monospace;
+}
+
+.ex1{
+    text-decoration: overline red;
+}
+
+.ex2{
+    text-decoration: line-through blue;
+}
+
+.ex3{
+    text-decoration: underline yellow;
+}
+
+.ex4{
+    text-decoration: underline line-through green;
+}
+
+/* Definindo fonte externa */
+
+h2{
+    font-family: "Datatype", monospace;
+}
